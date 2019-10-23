@@ -1,0 +1,11 @@
+rm -f /usr/lib/libtcmalloc.so
+ln -s /usr/lib/libtcmalloc.so.4.1.2 /usr/lib/libtcmalloc.so
+
+ln -s /usr/lib/x86_64-linux-gnu/libproj.so.9.1.0 \
+       /usr/lib/x86_64-linux-gnu/libproj.so
+
+cat > /etc/profile.d/set-fluidity-petscdir.sh << EOF
+export PETSC_DIR=/usr/lib/petscdir/3.6.3
+EOF
+
+chmod 755 /etc/profile.d/set-fluidity-petscdir.sh

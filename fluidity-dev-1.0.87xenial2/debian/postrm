@@ -1,0 +1,2 @@
+rm -f /usr/lib/libtcmalloc.so
+rm -f /etc/profile.d/set-fluidity-petscdir.sh

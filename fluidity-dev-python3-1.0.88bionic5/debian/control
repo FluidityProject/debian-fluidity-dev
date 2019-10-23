@@ -1,0 +1,24 @@
+Source: fluidity-dev-python3
+Section: contrib/devel
+Priority: extra
+Maintainer: Tim Greaves <tim.greaves@imperial.ac.uk>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7.0.8)
+
+Package: fluidity-dev-python3
+Architecture: any
+Depends: autoconf, automake, cmake, g++ (>= 4:4.6), gfortran (>= 4:4.6),
+         ghostscript, git, gmsh, google-perftools, libarpack2-dev, libblas-dev,
+         libboost-python1.65.1, libexodusii-dev, libglib2.0-dev, libgmp10,
+         liblapack-dev, libmpfr6, libnetcdf-dev, libnetcdff-dev,
+         libnetpbm10-dev, libpetsc3.8.3-dev, libqhull-dev, libspud-dev,
+         libsupermesh-dev, libtool, libudunits2-dev, libvtk7-dev, libxml2-utils,
+         libzoltan (>= 3.82), libzoltan-dev (>= 3.82), m4, openmpi-bin, 
+         python3-dev, python3-future, python3-h5py, python3-junit.xml,
+         python3-lxml, python3-matplotlib, python3-meshio, python3-numpy,
+         python3-scipy, python3-sympy, python3-uncertainties, python3-vtk7,
+         spud-diamond, tcsh, time, trang, transfig, triangle-bin, valgrind
+Description: This is an empty package that depends on and thus provides all
+  packages needed to build fluidity and run all the tests in the main fluidity
+  repository. Some required packages are taken from the local repository,
+  some from the central Debian/Ubuntu repository.

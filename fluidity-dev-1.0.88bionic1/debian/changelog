@@ -1,0 +1,5 @@
+fluidity-dev (1.0.88bionic1) bionic; urgency=medium
+
+  * Dropping python2 and tidying the dependencies list
+
+ -- Tim Greaves <tim.greaves@imperial.ac.uk>  Thu, 21 Nov 2019 10:57:07 +0100

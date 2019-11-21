@@ -1,11 +1,11 @@
-Source: fluidity-dev-python3
+Source: fluidity-dev
 Section: contrib/devel
 Priority: extra
 Maintainer: Tim Greaves <tim.greaves@imperial.ac.uk>
 Standards-Version: 3.9.1
 Build-Depends: debhelper (>= 7.0.8)
 
-Package: fluidity-dev-python3
+Package: fluidity-dev
 Architecture: any
 Depends: autoconf, automake, cmake, g++ (>= 4:4.6), gfortran (>= 4:4.6),
          ghostscript, git, gmsh, google-perftools, libarpack2-dev, libblas-dev,
